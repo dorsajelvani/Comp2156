@@ -1,0 +1,21 @@
+{
+  "name": "Comp2156",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests created yet.\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorsajelvani/Comp2156.git"
+  },
+  "keywords": [],
+  "author": "dorssssssssa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorsajelvani/Comp2156/issues"
+  },
+  "homepage": "https://github.com/dorsajelvani/Comp2156#readme"
+}
