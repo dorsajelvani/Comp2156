@@ -1,21 +1,43 @@
 {
-  "name": "Comp2156",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+"name": "comp2156",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+  "start": "react-scripts --openssl-legacy-provider start",
+  "build": "CI=false && react-scripts build",
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
+  "test": "echo \"Warning: No tests created yet.\"",
+  "eject": "react-scripts eject"
+},
 
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dorsajelvani/Comp2156.git"
-  },
-  "keywords": [],
-  "author": "dorssssssssa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dorsajelvani/Comp2156/issues"
-  },
-  "homepage": "https://github.com/dorsajelvani/Comp2156#readme"
+"dependencies": {
+  "gh-pages": "^5.0.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-scripts": "5.0.1",
+  "travis": "^0.1.1"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/KamPuiWong/Comp2156.git"
+},
+"keywords": [],
+"author": "Pui",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/KamPuiWong/Comp2156/issues"
+},
+"homepage": "https://github.com/KamPuiWong/Comp2156#readme",
+"eslintConfig": {
+  "extends": "react-app"
+},
+"browserslist": [
+  ">0.2%",
+  "not dead",
+  "not ie <= 11",
+  "not op_mini all"
+]
+
 }
